@@ -114,6 +114,8 @@ tbody tr:hover{
   }
   .table{
     width: 98vw;
+    height: 100%;
+    margin: 15px;
    }
    table,th,td{
     padding:5px 10px;
