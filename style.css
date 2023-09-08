@@ -109,10 +109,22 @@ tbody tr:hover{
   color: #222222;
 }
  @media (max-width: 1000px){
+  body{
+    height: 100%;
+  }
   .table{
     width: 98vw;
    }
-
+   table,th,td{
+    padding:5px 10px;
+  }
+  td{
+    font-size: 12px;
+  }
+  .table__body{
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
   td:not(:first-of-type){
     min-width: 9.1rem;
   }
@@ -127,6 +139,8 @@ tbody tr:hover{
     position: sticky;
     left: 0;
     top: 0;
+    box-shadow: 0 .4rem .8rem #0005;
+
    }
    .table__header{
     height: auto;
