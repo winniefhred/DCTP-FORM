@@ -76,7 +76,7 @@ tr td:nth-child(1){
   max-height: 89%;
   background-color: #fffb;
   margin: .8rem auto;
-  overflow: auto;
+  overflow: scroll;
 }
 tbody tr:nth-child(even){
   background-color: #0000000b  
